@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* reset.css   (css를 초기화 하는 작업) */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+a{
+            /* 링크  파란색, 밑줄 빼기 */
+    color: inherit; /*HTML의 기본컬러인 black을 상속받겠다. inherit=상속하다.*/
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+
+/* Safe Area */

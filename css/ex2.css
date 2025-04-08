@@ -1,0 +1,66 @@
+@charset "utf-8";
+body{
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(235,236,238);    
+}
+/* header 시작 */
+header{
+    text-align: center;
+    color: red;
+}
+header h2{
+    font-size: 40px;
+    border: 1px solid rgb(192, 192, 192);
+    text-shadow: 0 0 6px black;
+    box-shadow: 0 0 6px rgb(192, 192, 192);    
+}
+h2+p{
+    font-size: 12px;
+}
+h2+p+p{
+    color: black;
+}
+/* header 끝 */
+
+/* main 시작 */
+main{
+    font-size: 0.9rem;
+    font-weight: bolder;    
+}
+.head{
+    color: red;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-bottom: 1px solid silver;
+    line-height: 2.5rem;    
+}
+li{
+    display: flex;
+}
+li p{
+    padding: 10px;    
+}
+.info li p:nth-child(1){
+    width: 70px;    
+}
+.DESIGN li p:nth-child(1){
+    width: 100px;
+}
+p+p{
+    font-weight: normal;    
+}
+/* 상세정보 */
+/* 능력치 */
+.img{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 7px;    
+}
+/* main 끝 */
+footer{
+    padding: 20px;
+    color: red;
+    text-align: center;
+}
+

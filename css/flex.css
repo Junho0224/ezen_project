@@ -1,0 +1,90 @@
+@charset "utf-8";
+#wrap{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: silver;
+    color: #fff;
+}
+header{
+    width: 100%;
+    /* 플렉스 */
+    display: flex;
+    flex-flow: row nowrap;
+}
+header>h1{
+    width: 20%;
+    height: 142px;
+    background-color: red;
+    
+}
+header>nav{
+    width: 80%;
+    height: 142px;
+    background-color: #ff6b57;
+}
+.slider{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.slider_sec{
+    width: 50%;
+    height: 440px;
+    line-height: 440px;
+    background-color: #3c90be;
+}
+.gallery_sec{
+    width: 25%;
+    height: 440px;
+    line-height: 440px;
+    background-color: #f8de73;
+}
+.rankup_sec{
+    width: 25%;
+    height: 440px;
+    line-height: 440px;
+    background-color: #00d2a5;
+}
+.content{
+    /* 플렉스 */
+    display: flex;
+    flex-flow: row nowrap;
+}
+.lastest_sec{
+    width: 30%;
+    height: 270px;
+    background-color: #9cabe4;
+}
+.popular_sec{
+    width: 30%;
+    height: 270px;
+    background-color: #d76817;
+}
+.banner_sec{
+    width: 20%;
+    height: 270px;
+    /* 플렉스 */
+    display: flex;
+    flex-flow: column wrap;
+}
+.banner_sec>:nth-child(1){
+    height: 50%;
+    background-color: blue;
+}
+.banner_sec>:nth-child(2){
+    height: 50%;
+    background-color: skyblue;
+}
+.social_sec{
+    width: 20%;
+    height: 270px;
+    background-color: #fe63da;
+}
+footer{
+    height: 80px;
+    background-color: black;
+    line-height: 80px;
+}
+footer{
+    background-image: url(../images/cutedog.jpg);
+}
